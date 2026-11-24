@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="78.193" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="To validate forgot password functionality of Plum Deluxe" name="Verify that user can reset password using registered email" time="12.839">
+<system-out><![CDATA[
+When user has to click the account button for forgotpassword................passed
+And User has to click the forgot password...................................passed
+And User has to enter the registered email..................................passed
+And User has to click submit button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality ofplumdeluxe app" name="Verify that user can login with valid username and validpassword" time="23.424">
+<system-out><![CDATA[
+When user has to click the account button...................................passed
+When User has to enter the valid email and vaild password...................passed
+And User has to click the sign in button....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality ofplumdeluxe app" name="Verify that user can login with valid username and invalidpassword - #1.1" time="18.376">
+<system-out><![CDATA[
+When user has to click the account button...................................passed
+When User has to enter the valid "chelsi" and invaild "87633"...............passed
+And User has to click the sign in button....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality ofplumdeluxe app" name="Verify that user can login with valid username and invalidpassword - #1.2" time="23.319">
+<system-out><![CDATA[
+When user has to click the account button...................................passed
+When User has to enter the valid "farha" and invaild "09876"................passed
+And User has to click the sign in button....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
